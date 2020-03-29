@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #333333;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+nav .container {
+  padding: 40px 40px 0px 40px;
+}
+nav .navbar-header {
+  width: 315px;
+  height: 120px;
+}
+@media (max-width: 400px) {
+  nav .navbar-header {
+    width: 250px;
+  }
+}
+section.visual {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+section.visual img {
+  object-fit: cover;
+  object-position: 70% 30%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+section.intro {
+  padding: 20px 40px;
+}
+section.intro h1 {
+  font-weight: 300;
+}
